@@ -86,6 +86,50 @@ public class java3 {
 			System.out.println(value);
 		}
 		
+		
+		
+		
+		
+		
+		//1. 배열 선언 및 생성
+		int[] test = new int[3];
+		
+		//2. 배열 할당
+		test[0]=1000;
+		test[1]=2000;
+		test[2]=3000;
+		
+		//3-1. 출력(for loop)
+		for(int i=0; i<test.length; i++) {
+			System.out.println(test[i]);
+		}
+		
+		//3-2. 출력(enhanced for loop
+		for(int value : test) {
+			System.out.println(value);
+		}
+		
+		
+		String[] subject = {"국어","수학","영어"};
+		
+		//String[] subject = new String[3];
+		//subject[0] = "국어";
+		//subject[1] = "수학";
+		//subject[2] = "영어";
+		
+		
+		for(int i=0; i<subject.length; i++) {
+			System.out.println(subject[i]);
+		}
+		
+		for(String value : subject) {
+			System.out.println(value);
+		}
+		
+		
+		
+		
+		
 	
 	}
 
